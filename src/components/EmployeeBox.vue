@@ -1,13 +1,13 @@
 <template>
     <div class="conatiner">
-        <div class="row d-flex justify-content-around">
+        <div class="row   d-flex justify-content-around">
             <div class="col-1"></div>
             <!-- profile pic -->
-            <div class="col-2"><i class="bi bi-person-circle fas  fa-3x "></i></div>
+            <div class="col-xl-2 col-sm-12"><i class="bi bi-person-circle fas  fa-3x  "></i></div>
             <!-- name -->
-            <div class="col-5"> {{ employee.displayname }}</div>
+            <div class="col-xl-5 col-sm-12"> {{ employee.displayname }}</div>
             <!-- view button -->
-            <div class="col-4"> <button type="button" v-on:click="view()" class="btn btn-lg  ">View</button>
+            <div class="col-xl-4"> <button type="button" v-on:click="view()" class="btn btn-lg  ">View</button>
             </div>
         </div>
     </div>
